@@ -12,6 +12,6 @@ user_wants_number = True
 while user_wants_number == True:
     print(10)
 
-    user_input = input("should we print again? (y/n) ")
+    user_input = input("should we print again? (y/n) ") # working python3
     if user_input == 'n':
         user_wants_number = False
