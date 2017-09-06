@@ -24,6 +24,6 @@ def who_do_you_know():
 def ask_user():
     person = input("Enter a name of someone you know: ")
     if person in who_do_you_know():
-        print("You know this person!")
+        print("You know {}!".format(person))
 
 ask_user()
